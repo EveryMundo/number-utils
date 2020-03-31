@@ -1,0 +1,33 @@
+{
+  "name": "@everymundo/number-utils",
+  "version": "1.0.0",
+  "description": "Utility library with useful functions to deal with common number tasks",
+  "main": "index.js",
+  "scripts": {
+    "cover": "NODE_ENV=test LOG_LEVEL=silent nyc -x test --reporter=lcov --reporter=text mocha --recursive",
+    "test": " NODE_ENV=test LOG_LEVEL=silent mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsan/number-utils.git"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  },
+  "keywords": [],
+  "author": "Daniel Santana <git@danielsantana.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielsan/number-utils/issues"
+  },
+  "homepage": "https://github.com/danielsan/number-utils#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.0",
+    "sinon": "^9.0.1",
+    "standard": "^14.3.3"
+  }
+}
