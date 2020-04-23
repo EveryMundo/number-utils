@@ -2,7 +2,8 @@
 Utility library with useful functions to deal with common number tasks
 
 ## Features
-* lib/boundaries
+* [lib/boundaries](#lib-boundaries)
+* [generators/int-matrix](docs/int-matrix)
 
 
 ### lib/boundaries
