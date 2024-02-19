@@ -4,7 +4,7 @@
   "description": "Utility library with useful functions to deal with common number tasks",
   "main": "index.js",
   "scripts": {
-    "cover": "NODE_ENV=test LOG_LEVEL=silent nyc -x test --reporter=lcov --reporter=text mocha --recursive",
+    "cover": "NODE_ENV=test LOG_LEVEL=silent c8 -x test --reporter=lcov --reporter=text mocha --recursive",
     "test": " NODE_ENV=test LOG_LEVEL=silent mocha --recursive"
   },
   "repository": {
@@ -24,10 +24,11 @@
   },
   "homepage": "https://github.com/danielsan/number-utils#readme",
   "devDependencies": {
-    "chai": "^4.3.6",
-    "mocha": "^10.0.0",
-    "nyc": "^15.1.0",
-    "sinon": "^14.0.0",
-    "standard": "^17.0.0"
+    "@everymundo/number-utils": "^1.1.0",
+    "c8": "^9.1.0",
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "sinon": "^17.0.1",
+    "standard": "^17.1.0"
   }
 }
