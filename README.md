@@ -1,10 +1,9 @@
-# number-utils
+# @everymundo/number-utils
 Utility library with useful functions to deal with common number tasks
 
 ## Features
 * [lib/boundaries](#lib-boundaries)
 * [generators/int-matrix](docs/generators/int-matrix.md)
-
 
 ### lib/boundaries
 Whenever you want a variable numeric input to between 2 other values
@@ -20,4 +19,13 @@ const boundaries = require('@everymundo/number-utils/lib/boundaries')
 
 // boundaries(input, MIN, MAX, defaultNumber)
 const SOME_NUMBER = boundaries(process.env.SOME_NUMBER, 10, 100, 50)
+```
+
+### Install
+```sh
+npm i @everymundo/number-utils
+```
+or with bun
+```sh
+bun i @everymundo/number-utils
 ```
