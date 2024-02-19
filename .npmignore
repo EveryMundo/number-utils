@@ -60,3 +60,5 @@ typings/
 package-lock.json
 temp/**
 test/**
+bun.lockb
+.github/*
